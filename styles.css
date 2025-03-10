@@ -7,7 +7,7 @@ body {
 }
 
 .overlay {
-    background: url('foto\ bg.jpeg') no-repeat center center/cover;
+    background: url('fotobg.jpeg') no-repeat center center/cover;
     height: 700px;
     position: relative;
     background: hsla(210, 100%, 86%, 0.4);
@@ -26,7 +26,6 @@ body {
   background-color: #003366;
   z-index: 99999;
   border-bottom: 1px solid #ffffff;
-
   height: 50px; 
   display: flex;
   align-items: center; 
@@ -176,10 +175,10 @@ p {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
 }
 
-.footer {
-    background: #003366;
-    color: white;
-    text-align: center;
-    margin-top: 20px;
-    padding: 5px 0; 
+footer {
+  background: #003366;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  padding: 5px 0; 
 }
