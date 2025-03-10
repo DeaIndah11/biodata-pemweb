@@ -61,7 +61,7 @@ body {
 }
 
 .tombol a {
-    color: white;
+    color: #003366;
     text-decoration: none;
     font-weight: 600;
     padding: 8px 16px;
@@ -71,7 +71,7 @@ body {
 
 .tombol a:hover {
     background-color: #7dbeff; 
-    color: #e0f7ff;            
+    color: #003366;            
 }
 
 
@@ -87,13 +87,6 @@ body {
     border-radius: 50%;
     border: 3px solid white;
     margin-top: 20px; 
-}
-
-
-.container {
-    color: #ffffff;
-    text-align: center;
-    padding-top: 50px;
 }
 
 
@@ -139,11 +132,9 @@ body {
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
-  background: #fff;
   border-radius: 8px;
   color: #003366;
   text-align: left;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 
