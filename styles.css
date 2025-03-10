@@ -1,0 +1,183 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #e0f7ff;
+    color: #003366;
+    margin: 0;
+}
+
+.overlay {
+    background: url('foto\ bg.jpeg') no-repeat center center/cover;
+    height: 700px;
+    position: relative;
+    background: hsla(210, 100%, 86%, 0.4);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap_navbar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    background-color: #003366;
+    z-index: 99999;
+    border-bottom: 1px solid #ffffff;
+
+   
+    height: 50px; 
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0 2rem; 
+}
+
+.navbar-brand {
+    padding-left: 3rem;
+}
+
+.navbar-brand h4 {
+    color: #ffffff;
+}
+
+.navbar-brand h4 {
+    color: #a0deff;
+}
+
+.navbar-nav a {
+    font-weight: 600;
+    color: white;
+    transition: .2s ease-in-out;
+    margin-right: 2.5rem;
+}
+
+.navbar-nav a:hover {
+    color: #a0deff;
+}
+
+.navbar-nav {
+    padding-right: 3rem;
+}
+
+.tombol a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.tombol a:hover {
+    background-color: #7dbeff; 
+    color: #e0f7ff;            
+}
+
+
+.profile {
+    padding-top: 80px; 
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 260px;
+    height: 280px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-top: 20px; 
+}
+
+
+.container {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.intro {
+    max-width: 600px;
+    text-align: center;
+}
+
+
+.navbar {
+  background: #004080;
+  padding: 15px;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list li {
+  margin: 0 15px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+  color: #d0e7ff;
+}
+
+.nav-list a.active {
+  border-bottom: 2px solid #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.section {
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #004080;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #004080;
+  padding-bottom: 5px;
+  padding-right: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.hero-biodata h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-left: 800px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+}
+
+.footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px 0; 
+}
